@@ -1,13 +1,15 @@
-import React from "react"
+import React from "react";
+import NavBar from "./components/navBar/navBar";
+import style from "./App.module.css"
 
-function App() {
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 
-  return (
-    <>
-      <h1>cortinas aymara
-      </h1>
-    </>
-  )
+const App=()=>{
+    return(
+        <div>
+            <NavBar/>
+        </div>
+    )
 }
-
-export default App
+export default App;
