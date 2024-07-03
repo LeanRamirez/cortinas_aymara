@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import style from "./services.module.css";
 import Trabajos from "../trabajos/trabajos";
 import Reparaciones from "../reparaciones/reparaciones";
+import Accesorios from "../accesorios/accesorios";
 
 // Definición de los servicios
 const services = [
@@ -23,7 +24,7 @@ const renderComponent = (activeComponent) => {
     case "reparaciones":
       return <Reparaciones />;
     case "accesorios":
-      return <div>Accesorios Component</div>; // Placeholder for Accesorios component
+      return <Accesorios/>; // Placeholder for Accesorios component
     default:
       return null;
   }
