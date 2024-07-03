@@ -1,0 +1,25 @@
+.container{
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .containerList{
+    
+} */
+
+.containerList ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-right: 50px;
+    /* margin-bottom: 0px; */
+    /* border: solid black 5px; */
+}
+
+.containerItem{
+    padding-left: 30px;
+    list-style-type: none;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import NavBar from "./components/navBar/navBar";
+import Services from "./components/services/services";
 import style from "./App.module.css"
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,7 +10,11 @@ const App=()=>{
     return(
         <div>
             <NavBar/>
+            <Services/>
         </div>
     )
 }
 export default App;
+
+        
+        

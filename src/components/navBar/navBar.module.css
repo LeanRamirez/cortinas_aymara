@@ -4,3 +4,12 @@
     top: 100%;
     align-content: center;
 }
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.list{
+    margin-left: 60%;
+}
