@@ -21,13 +21,13 @@ const Accesorios =()=>{
                 <img className={style.img} src={accesorios2} alt="accesorios2" />
                 <img className={style.img} src={angulos} alt="angulos" />
                 <img className={style.img} src={banderetas} alt="banderetas" />
-                <img className={style.img} src={bobinas} alt="bobinas" />
+                {/* <img className={style.img} src={bobinas} alt="bobinas" />
                 <img className={style.img} src={guias} alt="guias" />
                 <img className={style.img} src={puertas} alt="puertas" />
                 <img className={style.img} src={tablillaciega} alt="tablilla ciega" />
                 <img className={style.img} src={tablillamicro} alt="tablilla micro" />
                 <img className={style.img} src={tablillanervios} alt="tablilla nervios" />
-                <img className={style.img} src={tubos} alt="tubos" />
+                <img className={style.img} src={tubos} alt="tubos" /> */}
             </div>
         </>
     )
