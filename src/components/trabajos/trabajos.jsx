@@ -8,7 +8,7 @@ import cortina12 from "../../assets/cortinas/cortina12.jpg"
 const Trabajos=()=>{
     return(
         <>
-            <div>
+            <div className={style.container}>
                 <h3>Trabajos realizados</h3>
                 <img className={style.img} src={cortina} alt="cortina" />
                 <img className={style.img} src={cortina8} alt="cortina8" />

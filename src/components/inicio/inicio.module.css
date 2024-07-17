@@ -1,7 +1,7 @@
 .container{
     position: relative;
     width: 100vw;
-    height: 500px;
+    height: 100vh;
 }
 .bg{
     width: 100%;
@@ -25,5 +25,27 @@
     z-index: 1000;
     color: white;
     background: rgba(0, 0, 0, 0.5);
-    
+
+}
+
+.containerText{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding-top: 35px;
+    background-color: rgba(35, 35, 49, 0.9);
+}
+.containerText h1{
+    align-self: center;
+    padding-bottom: 0;
+    color: white;
+}
+
+.text{
+    width: 80%;
+    padding: auto;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
 }

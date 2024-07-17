@@ -3,6 +3,7 @@ import style from "./services.module.css";
 import Trabajos from "../trabajos/trabajos";
 import Reparaciones from "../reparaciones/reparaciones";
 import Accesorios from "../accesorios/accesorios";
+import soldadura from "../../assets/soldadura.jpg";
 
 // Definición de los servicios
 const services = [
@@ -26,7 +27,7 @@ const renderComponent = (activeComponent) => {
     case "accesorios":
       return <Accesorios/>; // Placeholder for Accesorios component
     default:
-      return null;
+      return <img src={soldadura} alt="soldadura" />;
   }
 };
 
@@ -35,20 +36,21 @@ const Services = () => {
 
   return (
     <>
-      <div className={style.container}>
-        <h1>Servicios</h1>
-        <div className={style.containerList}>
-          <ul>
-            {services.map((service) => (
-              <li key={service.component} className={style.containerItem}>
-                <button onClick={() => handleComponentClick(service.component, setActiveComponent)}>
-                  {service.name}
-                </button>
-              </li>
-            ))}
-          </ul>
+        <div className={style.container}>
+          <h1>Servicios</h1>
+          {/* <img src={soldadura} alt="soldadura" /> */}
+          <div className={style.containerList}>
+            <ul>
+              {services.map((service) => (
+                <li key={service.component} className={style.containerItem}>
+                  <button onClick={() => handleComponentClick(service.component, setActiveComponent)}>
+                    {service.name}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-      </div>
       <div>
         {renderComponent(activeComponent)}
       </div>
@@ -57,6 +59,7 @@ const Services = () => {
 };
 
 export default Services;
+      
 
 
 
