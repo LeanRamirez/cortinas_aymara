@@ -27,7 +27,7 @@ const renderComponent = (activeComponent) => {
     case "accesorios":
       return <Accesorios/>; // Placeholder for Accesorios component
     default:
-      return <img src={soldadura} alt="soldadura" />;
+      return 
   }
 };
 

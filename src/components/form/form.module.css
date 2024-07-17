@@ -1,0 +1,21 @@
+.container{
+    border: solid black 1px;
+    border-radius: 5px;
+    margin: 20px;
+    margin-right: 20px;
+    
+}
+
+.bgImage {
+    height: 100vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 20px;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
